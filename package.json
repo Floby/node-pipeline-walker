@@ -1,0 +1,28 @@
+{
+  "name": "pipeline-walker",
+  "version": "1.0.0",
+  "description": "Walk around a pipeline when given a stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover --print detail _mocha -- -R spec test",
+    "coveralls": "cat coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Floby/node-pipeline-walker.git"
+  },
+  "keywords": [
+    "stream",
+    "walk",
+    "walker",
+    "pipeline",
+    "iterator",
+    "iterate"
+  ],
+  "author": "Florent Jaby <florent.jaby@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Floby/node-pipeline-walker/issues"
+  },
+  "homepage": "https://github.com/Floby/node-pipeline-walker#readme"
+}
